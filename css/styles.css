@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    :root {
+        --darkgray: #212329;
+        --white: #fff;
+        --vbcolor: rgba(35, 176, 194, 1);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+/* Nav */
+    .shadowNav {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    .logo {
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        line-height: 2.1em;
+        border: 2px solid transparent;
+    }
+
+
+    .logo:hover {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+
+    .cartImg {
+        width: 45px; 
+        cursor: pointer;
+    }
+
+    #cartNumbers {
+        background-color: var(--vbcolor);
+        width: 23px;
+        height: 23px;
+        border-radius: 100%;
+        text-align: center;
+        position: relative;
+        top: -11px;
+        right: 6px;
+        cursor: pointer;
+    }
+
+    .imagenCarrito {
+        height: 250px;
+    }
+
+
+/* Home */
+    #fondoHome {
+        height: 60vh;
+        background-color: var(--darkgray);
+        padding: 20px;
+    }
+
+    #fondoHome2 {
+        background-color: var(--darkgray);
+    } 
+
+    .textoPrincipal {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        color: var(--vbcolor);
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .subtextoPrincipal {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+    }
+
+
+    .btn-vb {
+        background-color: var(--vbcolor);
+        color:#fff;
+    }
+
+    .imagenesSongsHome {
+        width: 230px;
+        height: 300px;
+        border-radius: 100%;
+    }
+
+    .imagenesSongsHome:hover{
+        filter: brightness(115%);
+        cursor: pointer;
+    }
+
+
+/* Canciones */
+    .imagenLogoFooter {
+        height: 100px;
+    }
+
+    .imagenPresentacionTienda {
+        width: 300px;
+        height: 200px;
+    }
+
+    .imagenesProducto {
+        width: 270px;
+        height: 300px;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0, 0, 0, 0.125);
+        border-radius: 5%;
+        cursor: pointer;
+    }
+    
+    .shadow {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    .titles-vb {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 2.25rem;
+        color: rgba(35, 176, 194, 1);
+        font-weight: 100;
+        text-align: center;
+    }
+    
+/* Modal */
+    .imagenesModal {
+        height: 95px;
+        width: 90px;
+        border-radius: 5%;
+    }
+
+    .inputCuenta {
+        max-width: 49px;
+    }
+
+    .table-image {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .precioTotal {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+
